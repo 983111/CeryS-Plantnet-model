@@ -1,0 +1,22 @@
+
+CeryS EfficientNet-B3 — Experimental v1
+
+PlantVillage test accuracy: 99.82%
+PlantVillage macro F1: 0.9973
+
+PlantDoc original accuracy: 0.2537
+PlantDoc original macro F1: 0.2678
+
+PlantDoc fine-tuned accuracy: 0.4776
+PlantDoc fine-tuned macro F1: 0.5023
+
+PlantDoc external test images: 134
+Predictions within evaluated categories: 125
+Predictions outside evaluated categories: 9
+
+Fine-tuning:
+Training images: 1,400
+Training/validation split: 80/20
+Epochs: 8
+Architecture: EfficientNet-B3
+Input size: 224x224
